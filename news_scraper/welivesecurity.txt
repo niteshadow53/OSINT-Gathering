@@ -1,0 +1,1015 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="google-site-verification" content="_b2avZwzr79oru6lM2Ddae1fNpSIbPaP0H0WNkc2x3k" />
+	<meta name="msvalidate.01" content="CE77828A466C2513F660017CFCB6BA13" />
+	<link rel="icon" href="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/favicon.ico">
+	
+	
+
+	
+	<link href="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/build/css/main-7eccbe8b75.css" rel="stylesheet">
+
+	<script>
+        window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'Author': '(not set)',
+        'ArticleCategory': '(not set)'
+    });
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PMDGSM');
+</script>
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1518099328403839']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1518099328403839&amp;ev=NoScript" /></noscript>
+<meta property="fb:pages" content="56844830907" />
+<!-- This site is optimized with the Yoast SEO plugin v9.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>WeLiveSecurity</title>
+<meta name="description" content="WeLiveSecurity is an IT security site covering the latest news, research, cyber threats and malware discoveries, with insights from ESET experts."/>
+<link rel="canonical" href="https://www.welivesecurity.com/" />
+<link rel="next" href="https://www.welivesecurity.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="WeLiveSecurity" />
+<meta property="og:description" content="WeLiveSecurity is an IT security site covering the latest news, research, cyber threats and malware discoveries, with insights from ESET experts." />
+<meta property="og:url" content="http://www.welivesecurity.com/" />
+<meta property="og:site_name" content="WeLiveSecurity" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="WeLiveSecurity is an IT security site covering the latest news, research, cyber threats and malware discoveries, with insights from ESET experts." />
+<meta name="twitter:title" content="WeLiveSecurity" />
+<meta name="twitter:site" content="@welivesecurity" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ba-infohub-web01-v.hq.eset.com\/","name":"WeLiveSecurity","potentialAction":{"@type":"SearchAction","target":"https:\/\/ba-infohub-web01-v.hq.eset.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='stylesheet' id='crayon-theme-github-css'  href='https://www.welivesecurity.com/wp-content/plugins/crayon-syntax-highlighter/themes/github/github.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='https://www.welivesecurity.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel="alternate" href="https://www.welivesecurity.com/br/" hreflang="pt" />
+<link rel="alternate" href="https://www.welivesecurity.com/fr/" hreflang="fr" />
+<link rel="alternate" href="https://www.welivesecurity.com/" hreflang="en" />
+<link rel="alternate" href="https://www.welivesecurity.com/la-es/" hreflang="es" />
+<link rel="alternate" href="https://www.welivesecurity.com/deutsch/" hreflang="de" />
+<link rel="alternate" type="application/rss+xml" title="We Live Security RSS 2.0 Feed" href="/rss-configurator/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+            <link rel="alternate" href="https://www.welivesecurity.com/" hreflang="x-default" />
+    </head>
+<body class="no-js">
+	<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMDGSM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="main">
+		<header id="site-header" class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12 pull-right" id="header-nav">
+					<div class="row">
+						<div class="col-xs-12 mobile-search-input">
+							<form action="https://www.welivesecurity.com/" class="basic-searchform imc dark col-md-12 col-sm-10 col-xs-12" method="get" role="search">
+	<div class="search-input clearfix">
+		<input type="text" name="s" value="" placeholder="Search..." class="imc">
+		<button class="imc">
+			<span class="icomoon icon-icon_search imc"></span>
+		</button>
+	</div>
+</form>							</div>
+						<div class="hidden-lg hidden-md col-sm-7 col-xs-8 hidden-xxs">
+							<a href="https://www.welivesecurity.com/" class="logo">
+								<img src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-dark-header.svg" alt="Welivesecurity.com by ESET">
+								<img class="hidden" src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-light-header.svg" alt="Welivesecurity.com by ESET">
+							</a>
+						</div>
+						<div class="col-md-8 hidden-sm hidden-xs languages">
+							<div class="dropdown">
+	<button class="btn btn-default dropdown-toggle" type="button" id="main-language-picker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    	<span class="text">In English</span>
+    	<span class="icomoon icon-icon_arrow"></span>
+  	</button>
+  	<ul class="dropdown-menu" aria-labelledby="main-language-picker">
+        		<li>
+			<a href="http://www.welivesecurity.com/br/" title="Em Português">
+				Em Português			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/fr/" title="En français">
+				En français			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/la-es/" title="En Español">
+				En Español			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/deutsch/" title="In Deutsch">
+				In Deutsch			</a>
+		</li>
+  	</ul>
+</div>						</div>
+						<div class="col-md-4 col-sm-2 col-xs-3 menu-trigger">
+							<div class="menu-btn">
+	<span class="text">Menu</span>
+	<button type="button" id="menu-trigger" class="tcon tcon-menu--xcross" aria-label="toggle menu">
+        <span class="wrapper">
+            <span class="tcon-menu__lines" aria-hidden="true"></span>
+            <span class="tcon-visuallyhidden">toggle menu</span>
+        </span>
+    </button>
+</div>						</div>
+						<div class="hidden-lg hidden-md hidden-sm hidden-xs col-xs-2 mobile-search imc">
+							<button class="imc">
+								<span class="icomoon icon-icon_search imc"></span>
+							</button>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 imc" id="main-menu">
+							<nav class="menu clearfix imc">
+								<ul class="col-md-12 col-sm-6 col-xs-6 imc">
+																			<li class="active">
+											<a href="/">
+												All Posts											</a>
+										</li>
+																			<li class="">
+											<a href="/research">
+												Latest Research											</a>
+										</li>
+																			<li class="">
+											<a href="/category/how-to/">
+												How To											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/media/videos/">
+												Videos											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/media/podcasts/">
+												Podcasts											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/papers/conference-papers/">
+												Conference Materials											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/papers/white-papers/">
+												White Papers											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/papers/magazine/">
+												Magazine											</a>
+										</li>
+																			<li class="">
+											<a href="https://www.welivesecurity.com/our-experts/">
+												Our Experts											</a>
+										</li>
+																	</ul>
+								
+								<div class="col-md-12 col-sm-6 col-xs-6 imc">
+									<ul class="languages hidden-lg hidden-md hidden-xxs col-xs-12 imc">
+												<li>
+			<a href="http://www.welivesecurity.com/br/" title="Em Português">
+				Em Português			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/fr/" title="En français">
+				En français			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/la-es/" title="En Español">
+				En Español			</a>
+		</li>
+		<li>
+			<a href="http://www.welivesecurity.com/deutsch/" title="In Deutsch">
+				In Deutsch			</a>
+		</li>
+									</ul>
+									<div class="hidden-lg hidden-md col-xs-12 imc">
+										<form action="https://www.welivesecurity.com/" class="basic-searchform imc dark col-md-12 col-sm-10 col-xs-12" method="get" role="search">
+	<div class="search-input clearfix">
+		<input type="text" name="s" value="" placeholder="Search..." class="imc">
+		<button class="imc">
+			<span class="icomoon icon-icon_search imc"></span>
+		</button>
+	</div>
+</form>										</div>
+								</div>
+							</nav>
+						</div>
+						<div class="menu-overlay col-md-12 col-sm-12 col-xs-12 imc"><div class="inner imc"></div></div>
+					</div>
+					<div class="row hidden-sm hidden-xs">
+						<form action="https://www.welivesecurity.com/" class="basic-searchform imc  col-md-12 col-sm-10 col-xs-12" method="get" role="search">
+	<div class="search-input clearfix">
+		<input type="text" name="s" value="" placeholder="Search..." class="imc">
+		<button class="imc">
+			<span class="icomoon icon-icon_search imc"></span>
+		</button>
+	</div>
+</form>					
+					</div>
+				</div>
+				<div class="col-md-5 hidden-sm hidden-xs pull-left" id="header-logo">
+					<a href="https://www.welivesecurity.com/">
+						<img src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-dark-header.svg" alt="Welivesecurity.com by ESET">
+						<img class="hidden" src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-light-header.svg" alt="Welivesecurity.com by ESET">
+					</a>
+					<span class="slogan hidden-sm hidden-xs">
+						Award-winning news, views, and insight from the ESET <strong>security community</strong> 
+					</span>
+				</div>
+			</div>
+		</header><section id="home-slider" class="container">
+	<div class="row inner">
+		<div class="col-md-8 col-sm-12 col-xs-12 main">
+			<div class="slick-home">
+								<article class="slide">
+					<a href="https://www.welivesecurity.com/2018/12/18/cybersecurity-trends-2019-privacy-intrusion-global-village/" style="background-image: url('/wp-content/uploads/2018/12/Trends2019_Privacy-601x426.jpg'); background-position: 50% 50%;">
+						<div class="info">
+							<div class="col-md-12 no-padding category-wrapper">
+					 			<span class="category-tag-btn">Privacy</span>			 
+							</div>
+							
+															<img src="https://www.welivesecurity.com/wp-content/uploads/2017/11/photo-BW-150x150.jpg" alt="Tomáš Foltýn" class="author">
+														
+							<div class="text clearfix">
+								<h2>Cybersecurity Trends 2019: Privacy and intrusion in the global village</h2>
+								<span class="meta">
+									<span class="author">Tomáš Foltýn</span> 
+									<time datetime="2018-12-18 12:50:01">18 Dec 2018 - 12:50PM</time>
+								</span>
+							</div>
+						</div>						
+					</a>
+				</article>
+								<article class="slide">
+					<a href="https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/" style="background-image: url('/wp-content/uploads/2018/12/Android_Trojan-601x426.jpg'); background-position: 50% 50%;">
+						<div class="info">
+							<div class="col-md-12 no-padding category-wrapper">
+					 			<span class="category-tag-btn">Android</span>			 
+							</div>
+							
+															<img src="https://www.welivesecurity.com/wp-content/uploads/2016/02/LukasStefanko_BW-150x150.jpg" alt="Lukas Stefanko" class="author">
+														
+							<div class="text clearfix">
+								<h2>Android Trojan steals money from PayPal accounts even with 2FA on</h2>
+								<span class="meta">
+									<span class="author">Lukas Stefanko</span> 
+									<time datetime="2018-12-11 14:57:35">11 Dec 2018 - 02:57PM</time>
+								</span>
+							</div>
+						</div>						
+					</a>
+				</article>
+								<article class="slide">
+					<a href="https://www.welivesecurity.com/2018/12/10/next-generation-dark-markets-amazon-ebay-criminals/" style="background-image: url('/wp-content/uploads/2018/12/dark_Markets-601x426.jpg'); background-position: 50% 50%;">
+						<div class="info">
+							<div class="col-md-12 no-padding category-wrapper">
+					 			<span class="category-tag-btn">Cybercrime</span>			 
+							</div>
+							
+															<img src="https://www.welivesecurity.com/wp-content/uploads/2016/05/scobb-tedx-222x179-150x150.jpg" alt="Stephen Cobb" class="author">
+														
+							<div class="text clearfix">
+								<h2>Next Generation Dark Markets? Think Amazon or eBay for criminals</h2>
+								<span class="meta">
+									<span class="author">Stephen Cobb</span> 
+									<time datetime="2018-12-10 13:57:40">10 Dec 2018 - 01:57PM</time>
+								</span>
+							</div>
+						</div>						
+					</a>
+				</article>
+							</div>
+		</div>
+		<div class="col-md-4 hidden-sm hidden-xs side">
+						<article class="col-md-12 no-padding">
+				<a href="https://www.welivesecurity.com/2018/12/21/spare-five-tips-safer-online-shopping/" style="background-image: url('/wp-content/uploads/2018/12/SPARE_OnlineShopping-tips-601x426.jpg'); background-position: 50% 50%;">
+						<div class="info">
+							<div class="col-md-12 no-padding category-wrapper">
+                                <span class="category-tag-btn">Cybersecurity Education</span>                            </div>
+							<div class="text clearfix">
+								<h2>SPARE: Five tips for a safer online shopping experience</h2>
+							</div>
+						</div>
+					</a>
+			</article>
+						<article class="col-md-12 no-padding">
+				<a href="https://www.welivesecurity.com/2018/12/21/google-policy-change-eset-android-anti-theft-service/" style="background-image: url('/wp-content/uploads/2018/12/android-cropped-601x426.jpg'); background-position: 50% 50%;">
+						<div class="info">
+							<div class="col-md-12 no-padding category-wrapper">
+                                <span class="category-tag-btn">Android</span>                            </div>
+							<div class="text clearfix">
+								<h2>Google’s policy change reduces security, privacy and safety for 75% of users of ESET’s Android anti-theft service</h2>
+							</div>
+						</div>
+					</a>
+			</article>
+					</div>
+	</div>
+</section><div id="content" class="container">
+	<div class="row">
+		<section id="news-feed" class="col-md-8 col-sm-12 col-xs-12">
+			<div class="heading-line col-sm-8 col-xs-7 no-padding" id="articles-newest">
+				<h3>
+					<span class="text">Latest Articles</span>
+				</h3>
+			</div>
+			<div class="dropdown col-sm-4 col-xs-5 no-padding">
+				<button class="btn btn-default dropdown-toggle basic" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    	<span class="text">Sort Newest</span>
+			    	<span class="icomoon icon-icon_arrow"></span>
+			  	</button>
+			  	<ul class="dropdown-menu basic" aria-labelledby="main-language-picker">
+			        				        <li>
+				        	<a href="https://www.welivesecurity.com/?sort=popular#articles-popular">
+				        		Popular Articles			        		</a>
+				        </li>
+			    				  	</ul>
+			</div>
+			
+					<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/cybersecurity-education/" class="category-tag-btn">Cybersecurity Education</a>				<a href="https://www.welivesecurity.com/2018/12/21/spare-five-tips-safer-online-shopping/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/SPARE_OnlineShopping-tips-623x432.jpg" alt="SPARE: Five tips for a safer online shopping experience">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/21/spare-five-tips-safer-online-shopping/" title="SPARE: Five tips for a safer online shopping experience">
+						SPARE: Five tips for a safer online shopping experience					</a>
+				</h2>
+				<p>There is still some time left to pick up some last-minute shopping before it’s too late but in the rush to do so don’t forget to do it safely</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/editorla/" title="Posts by Editor" class="author url fn" rel="author">Editor</a>					<time datetime="2018-12-21 14:30:37">21 Dec 2018 - 02:30PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/android-2/" class="category-tag-btn">Android</a>				<a href="https://www.welivesecurity.com/2018/12/21/google-policy-change-eset-android-anti-theft-service/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/android-cropped-623x432.jpg" alt="Google’s policy change reduces security, privacy and safety for 75% of users of ESET’s Android anti-theft service">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/21/google-policy-change-eset-android-anti-theft-service/" title="Google’s policy change reduces security, privacy and safety for 75% of users of ESET’s Android anti-theft service">
+						Google’s policy change reduces security, privacy and safety for 75% of users of ESET’s Android anti-theft service					</a>
+				</h2>
+				<p>The unfortunate implications of a well-intentioned change to Google Play Developer policies – and the negative impact it has on ESET’s Android app customers</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tanscombe/" title="Posts by Tony Anscombe" class="author url fn" rel="author">Tony Anscombe</a>					<time datetime="2018-12-21 11:01:32">21 Dec 2018 - 11:01AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/vulnerability/" class="category-tag-btn">Vulnerability</a>				<a href="https://www.welivesecurity.com/2018/12/20/microsoft-emergency-patch-internet-explorer-zero-day/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/browser-773273_640-623x432.jpg" alt="Microsoft issues emergency fix for Internet Explorer zero-day">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/20/microsoft-emergency-patch-internet-explorer-zero-day/" title="Microsoft issues emergency fix for Internet Explorer zero-day">
+						Microsoft issues emergency fix for Internet Explorer zero-day					</a>
+				</h2>
+				<p>Details are sparse about a security hole that Microsoft said is being exploited in targeted attacks</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tfoltyn/" title="Posts by Tomáš Foltýn" class="author url fn" rel="author">Tomáš Foltýn</a>					<time datetime="2018-12-20 15:27:03">20 Dec 2018 - 03:27PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/scams/" class="category-tag-btn">Scams</a>				<a href="https://www.welivesecurity.com/2018/12/20/holiday-online-shopping-special-tips/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/OnlineShopping_TipsTony-623x432.jpg" alt="Holiday online shopping special tips">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/20/holiday-online-shopping-special-tips/" title="Holiday online shopping special tips">
+						Holiday online shopping special tips					</a>
+				</h2>
+				<p>Some useful advice for staying safe while hunting for bargains in this holiday season</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tanscombe/" title="Posts by Tony Anscombe" class="author url fn" rel="author">Tony Anscombe</a>					<time datetime="2018-12-20 10:30:58">20 Dec 2018 - 10:30AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/hacking/" class="category-tag-btn">Hacking</a>				<a href="https://www.welivesecurity.com/2018/12/19/nasa-suspected-theft-employee-data/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/discovery-space-shuttle-1665191_1920-623x432.jpg" alt="NASA fears hackers may have stolen employee data">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/19/nasa-suspected-theft-employee-data/" title="NASA fears hackers may have stolen employee data">
+						NASA fears hackers may have stolen employee data					</a>
+				</h2>
+				<p>A probe launched immediately after the discovery of the suspected incident has yet to establish the scale of the potential damage</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tfoltyn/" title="Posts by Tomáš Foltýn" class="author url fn" rel="author">Tomáš Foltýn</a>					<time datetime="2018-12-19 15:47:56">19 Dec 2018 - 03:47PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/cybersecurity/" class="category-tag-btn">Cybersecurity</a>				<a href="https://www.welivesecurity.com/2018/12/18/target-targeted-five-years-breach-shook-cybersecurity/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/target_Targeted-623x432.jpg" alt="Target targeted: Five years on from a breach that shook the cybersecurity industry">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/18/target-targeted-five-years-breach-shook-cybersecurity/" title="Target targeted: Five years on from a breach that shook the cybersecurity industry">
+						Target targeted: Five years on from a breach that shook the cybersecurity industry					</a>
+				</h2>
+				<p>In December 2013 news broke that Target suffered a breach that forced consumers and the cybersecurity community to question the security practices of retailers</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/lysa/" title="Posts by Lysa Myers" class="author url fn" rel="author">Lysa Myers</a>					<time datetime="2018-12-18 17:30:41">18 Dec 2018 - 05:30PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/privacy/" class="category-tag-btn">Privacy</a>				<a href="https://www.welivesecurity.com/2018/12/18/cybersecurity-trends-2019-privacy-intrusion-global-village/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/Trends2019_Privacy-623x432.jpg" alt="Cybersecurity Trends 2019: Privacy and intrusion in the global village">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/18/cybersecurity-trends-2019-privacy-intrusion-global-village/" title="Cybersecurity Trends 2019: Privacy and intrusion in the global village">
+						Cybersecurity Trends 2019: Privacy and intrusion in the global village					</a>
+				</h2>
+				<p>With just days left in 2018, ESET experts offer their reflections in ‘Cybersecurity Trends 2019’ on themes that are set to figure prominently in the upcoming year</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tfoltyn/" title="Posts by Tomáš Foltýn" class="author url fn" rel="author">Tomáš Foltýn</a>					<time datetime="2018-12-18 12:50:01">18 Dec 2018 - 12:50PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/password/" class="category-tag-btn">Password</a>				<a href="https://www.welivesecurity.com/2018/12/17/most-popular-passwords-2018-revealed/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/password-866977_1920-623x432.jpg" alt="The most popular passwords of 2018 revealed: Are yours on the list?">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/17/most-popular-passwords-2018-revealed/" title="The most popular passwords of 2018 revealed: Are yours on the list?">
+						The most popular passwords of 2018 revealed: Are yours on the list?					</a>
+				</h2>
+				<p>Besides the usual suspects among the worst of passwords, a handful of notable – but similarly poor – choices make their debuts</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tfoltyn/" title="Posts by Tomáš Foltýn" class="author url fn" rel="author">Tomáš Foltýn</a>					<time datetime="2018-12-17 12:52:35">17 Dec 2018 - 12:52PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/scams/" class="category-tag-btn">Scams</a>				<a href="https://www.welivesecurity.com/2018/12/14/protect-yourself-threat-scam-apps-grows/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/ScamApps_HowTo-623x432.jpg" alt="How to protect yourself as the threat of scam apps grows">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/14/protect-yourself-threat-scam-apps-grows/" title="How to protect yourself as the threat of scam apps grows">
+						How to protect yourself as the threat of scam apps grows					</a>
+				</h2>
+				<p>As the threat of bogus apps continues, what can we do to protect ourselves against these fraudulent practices?</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/lysa/" title="Posts by Lysa Myers" class="author url fn" rel="author">Lysa Myers</a>					<time datetime="2018-12-14 11:58:35">14 Dec 2018 - 11:58AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/media/videos/" class="category-tag-btn special-post"><span class="icomoon icon-icon_video"></span>Videos</a>				<a href="https://www.welivesecurity.com/videos/week-in-security-with-tony-anscombe-3/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/0-6.jpg" alt="Week in security with Tony Anscombe">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/videos/week-in-security-with-tony-anscombe-3/" title="Week in security with Tony Anscombe">
+						Week in security with Tony Anscombe					</a>
+				</h2>
+				<p>Android Trojan steals money from PayPal accounts, the next generation of Dark Markets, and the Google+ to shut down earlier after new bug</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/scurtis/" title="Posts by Shane Curtis" class="author url fn" rel="author">Shane Curtis</a>					<time datetime="2018-12-14 10:07:17">14 Dec 2018 - 10:07AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/espionage/" class="category-tag-btn">espionage</a>				<a href="https://www.welivesecurity.com/2018/12/14/malaysian-government-targeted-mash-up-espionage-toolkit/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/MalaysianGovernment_Targeted-623x432.jpg" alt="Malaysian government targeted with mash-up espionage toolkit">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/14/malaysian-government-targeted-mash-up-espionage-toolkit/" title="Malaysian government targeted with mash-up espionage toolkit">
+						Malaysian government targeted with mash-up espionage toolkit					</a>
+				</h2>
+				<p>An interview with ESET researchers Tomáš Gardoň and Filip Kafka on their research of a malware toolkit used in espionage against the Malaysian government</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/editorla/" title="Posts by Editor" class="author url fn" rel="author">Editor</a>					<time datetime="2018-12-14 01:57:24">14 Dec 2018 - 01:57AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/google-2/" class="category-tag-btn">Google</a>				<a href="https://www.welivesecurity.com/2018/12/11/google-plus-shut-earlier-new-bug-exposed-data/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/GooglePlus_ShutDownEarly-623x432.jpg" alt="Google+ to shut earlier as new bug exposed data of 52.5 million users">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/11/google-plus-shut-earlier-new-bug-exposed-data/" title="Google+ to shut earlier as new bug exposed data of 52.5 million users">
+						Google+ to shut earlier as new bug exposed data of 52.5 million users					</a>
+				</h2>
+				<p>There is no evidence that the flaw was misused during the six days it was alive, said the tech giant</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/tfoltyn/" title="Posts by Tomáš Foltýn" class="author url fn" rel="author">Tomáš Foltýn</a>					<time datetime="2018-12-11 17:10:41">11 Dec 2018 - 05:10PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/android-2/" class="category-tag-btn">Android</a>				<a href="https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/Android_Trojan-623x432.jpg" alt="Android Trojan steals money from PayPal accounts even with 2FA on">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/" title="Android Trojan steals money from PayPal accounts even with 2FA on">
+						Android Trojan steals money from PayPal accounts even with 2FA on					</a>
+				</h2>
+				<p>ESET researchers discovered a new Android Trojan using a novel Accessibility-abusing technique that targets the official PayPal app, and is capable of bypassing PayPal’s two-factor authentication</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/lstefanko/" title="Posts by Lukas Stefanko" class="author url fn" rel="author">Lukas Stefanko</a>					<time datetime="2018-12-11 14:57:35">11 Dec 2018 - 02:57PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/cybercrime/" class="category-tag-btn">Cybercrime</a>				<a href="https://www.welivesecurity.com/2018/12/10/next-generation-dark-markets-amazon-ebay-criminals/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/dark_Markets-623x432.jpg" alt="Next Generation Dark Markets? Think Amazon or eBay for criminals">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/10/next-generation-dark-markets-amazon-ebay-criminals/" title="Next Generation Dark Markets? Think Amazon or eBay for criminals">
+						Next Generation Dark Markets? Think Amazon or eBay for criminals					</a>
+				</h2>
+				<p>The “evolution” of these markets is making cybercrime easier than ever before</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/scobb/" title="Posts by Stephen Cobb" class="author url fn" rel="author">Stephen Cobb</a>					<time datetime="2018-12-10 13:57:40">10 Dec 2018 - 01:57PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/media/videos/" class="category-tag-btn special-post"><span class="icomoon icon-icon_video"></span>Videos</a>				<a href="https://www.welivesecurity.com/videos/week-in-security-with-tony-anscombe-danabot/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/0-2.jpg" alt="Week in security with Tony Anscombe">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/videos/week-in-security-with-tony-anscombe-danabot/" title="Week in security with Tony Anscombe">
+						Week in security with Tony Anscombe					</a>
+				</h2>
+				<p>DanaBot operators have been expanding the malware’s scope with new spam-sending capability. ESET researchers discovered a set of previously undocumented Linux malware families based on OpenSSH. Plus fitness-tracking apps use dodgy in-app payments to steal money from unaware iPhone and iPad users</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/scurtis/" title="Posts by Shane Curtis" class="author url fn" rel="author">Shane Curtis</a>					<time datetime="2018-12-07 10:17:09">7 Dec 2018 - 10:17AM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/malware/" class="category-tag-btn">Malware</a>				<a href="https://www.welivesecurity.com/2018/12/06/danabot-evolves-beyond-banking-trojan-new-spam/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/danabot-trojan-spam-623x432.jpg" alt="DanaBot evolves beyond banking Trojan with new spam-sending capability">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/06/danabot-evolves-beyond-banking-trojan-new-spam/" title="DanaBot evolves beyond banking Trojan with new spam-sending capability">
+						DanaBot evolves beyond banking Trojan with new spam-sending capability					</a>
+				</h2>
+				<p>ESET research shows that DanaBot operators have been expanding the malware’s scope and possibly cooperating with another criminal group</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/esetresearch/" title="Posts by ESET Research" class="author url fn" rel="author">ESET Research</a>					<time datetime="2018-12-06 14:56:28">6 Dec 2018 - 02:56PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/linux/" class="category-tag-btn">Linux</a>				<a href="https://www.welivesecurity.com/2018/12/05/dark-side-of-the-forsshe/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/DarkSide_Forshhe-623x432.jpg" alt="The Dark Side of the ForSSHe">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/05/dark-side-of-the-forsshe/" title="The Dark Side of the ForSSHe">
+						The Dark Side of the ForSSHe					</a>
+				</h2>
+				<p>ESET researchers discovered a set of previously undocumented Linux malware families based on OpenSSH. In the white paper, “The Dark Side of the ForSSHe”, they release analysis of 21 malware families to improve the prevention, detection and remediation of such threats</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/marc-etienne/" title="Posts by Marc-Etienne M.Léveillé" class="author url fn" rel="author">Marc-Etienne M.Léveillé</a>					<time datetime="2018-12-05 14:57:46">5 Dec 2018 - 02:57PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/ios-2/" class="category-tag-btn">iOS</a>				<a href="https://www.welivesecurity.com/2018/12/03/scam-ios-apps-promise-fitness-steal-money-instead/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/ioS_ScamApps-623x432.jpg" alt="Scam iOS apps promise fitness, steal money instead">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/03/scam-ios-apps-promise-fitness-steal-money-instead/" title="Scam iOS apps promise fitness, steal money instead">
+						Scam iOS apps promise fitness, steal money instead					</a>
+				</h2>
+				<p>Fitness-tracking apps use dodgy in-app payments to steal money from unaware iPhone and iPad users</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/lstefanko/" title="Posts by Lukas Stefanko" class="author url fn" rel="author">Lukas Stefanko</a>					<time datetime="2018-12-03 13:44:42">3 Dec 2018 - 01:44PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/cybersecurity/" class="category-tag-btn">Cybersecurity</a>				<a href="https://www.welivesecurity.com/2018/12/03/cyberwarcon-focusing-impact-cyber-badness/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/12/CyberwarCon_Cam-623x432.jpg" alt="CyberwarCon – focusing on the impact of cyber-badness">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/12/03/cyberwarcon-focusing-impact-cyber-badness/" title="CyberwarCon – focusing on the impact of cyber-badness">
+						CyberwarCon – focusing on the impact of cyber-badness					</a>
+				</h2>
+				<p>A welcome return to the hacker conferences of yesteryear </p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/ccamp/" title="Posts by Cameron Camp" class="author url fn" rel="author">Cameron Camp</a>					<time datetime="2018-12-03 12:06:52">3 Dec 2018 - 12:06PM</time>
+				</span>
+			</div>
+		</article>
+		<article class="news-feed-item col-xs-12 no-padding">
+			<div class="img-wrapper col-sm-3 col-xs-4 no-padding">
+				<a href="https://www.welivesecurity.com/category/news/" class="category-tag-btn">News</a>				<a href="https://www.welivesecurity.com/2018/11/30/marriott-starwood-data-breach-response/">
+					<img class="col-xs-12 no-padding clickable" src="https://www.welivesecurity.com/wp-content/uploads/2018/11/blue-businessman-woking-laptop-hotel-623x432.png" alt="Marriott Starwood data breach: 5 defensive steps travelers should take now">
+				</a>
+			</div>
+			<div class="text-wrapper col-sm-9 col-xs-8 no-padding">
+				<h2>
+					<a href="https://www.welivesecurity.com/2018/11/30/marriott-starwood-data-breach-response/" title="Marriott Starwood data breach: 5 defensive steps travelers should take now">
+						Marriott Starwood data breach: 5 defensive steps travelers should take now					</a>
+				</h2>
+				<p>Defensive steps for Marriott Starwood guests worried their personal information may have been compromised by the massive data breach</p>
+				<span class="meta">
+					<a href="https://www.welivesecurity.com/author/lysa/" title="Posts by Lysa Myers" class="author url fn" rel="author">Lysa Myers</a>					<time datetime="2018-11-30 19:47:05">30 Nov 2018 - 07:47PM</time>
+				</span>
+			</div>
+		</article>
+	<div class="pagination-wrapper col-xs-12 no-padding">
+		<div class='wp-pagenavi' role='navigation'>
+<span aria-current='page' class='current'>1</span><a class="page larger" title="Page 2" href="https://www.welivesecurity.com/page/2/">2</a><a class="page larger" title="Page 3" href="https://www.welivesecurity.com/page/3/">3</a><a class="page larger" title="Page 4" href="https://www.welivesecurity.com/page/4/">4</a><a class="page larger" title="Page 5" href="https://www.welivesecurity.com/page/5/">5</a><span class='extend'></span><a class="larger page" title="Page 10" href="https://www.welivesecurity.com/page/10/">10</a><a class="larger page" title="Page 20" href="https://www.welivesecurity.com/page/20/">20</a><a class="larger page" title="Page 30" href="https://www.welivesecurity.com/page/30/">30</a><a class="nextpostslink" rel="next" href="https://www.welivesecurity.com/page/2/">Next</a>
+</div>	</div>
+		</section>
+
+		<aside id="sidebar" class="col-md-4 col-sm-12 col-xs-12">
+	<div class="inner">
+		<div class="heading-line col-md-12 no-padding sidebar-item" id="poll">
+	<h3>
+		<span class="text">Poll</span>
+	</h3>
+	<div><div class="textwidget custom-html-widget"><script type="text/javascript">
+(function(d, s, id){
+  var js,
+      fjs = d.getElementsByTagName(s)[0],
+      r = Math.floor(new Date().getTime() / 1000000);
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async=1;
+  js.src = "https://www.opinionstage.com/assets/loader.js?" + r;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'os-widget-jssdk'));
+</script><div class="os_poll" data-fif="false" data-path="/polls/2526223" id="os-widget-2526223"></div>
+</div></div></div>
+<div class="heading-line col-md-12 no-padding sidebar-item social-media">
+	<h3>
+		<span class="text">Follow us</span>
+	</h3>
+	<div class="icons-wrapper">
+					<a href="https://www.facebook.com/welivesecurity" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Join our facebook fan site!">
+				<span class="icomoon icon-icon_fb"></span>
+			</a>
+					<a href="http://www.youtube.com/esetglobal" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Watch our videos at YouTube Channel.">
+				<span class="icomoon icon-icon_yt"></span>
+			</a>
+					<a href="http://twitter.com/welivesecurity" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Visit the official WLS Twitter page.">
+				<span class="icomoon icon-icon_tw"></span>
+			</a>
+					<a href="http://www.linkedin.com/company/28967?trk=tyah" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Follow us on LinkedIn.">
+				<span class="icomoon icon-icon_in"></span>
+			</a>
+					<a href="https://plus.google.com/u/0/110270843223695558828/posts" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Keep in touch with us on Google+">
+				<span class="icomoon icon-icon_gp"></span>
+			</a>
+					<a href="/rss-configurator/" target="blank" data-toggle="tooltip" data-placement="top" data-original-title="Don´t miss a single post!">
+				<span class="icomoon icon-icon_rss"></span>
+			</a>
+			</div>
+</div>			
+		<div class="heading-line col-md-12 no-padding sidebar-item clearfix">
+			<h3>
+				<span class="text">Newsletter</span>
+			</h3>
+
+			<form action="//liondigital.us3.list-manage.com/subscribe/post?u=b76f82b1cc198ab1d80665c99&amp;id=102b0810e2" class="basic-searchform col-md-12 col-sm-12 col-xs-12 no-padding newsletter" method="post" role="search">
+				<div class="search-input clearfix">
+					<input type="text" name="email" value="" placeholder="Email...">
+					<button>
+						Submit					</button>
+				</div>
+			</form>		
+		</div>
+		<div class="heading-line col-md-12 no-padding sidebar-item">
+			<h3>
+				<span class="text">Categories</span>
+			</h3>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/cybercrime/">
+							Cybercrime						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/malware/">
+							Malware						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/privacy/">
+							Privacy						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/password/">
+							Password						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/scams/">
+							Scams						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/how-to/">
+							How To						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/opinion-2/">
+							Opinion						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/hacking/">
+							Hacking						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/social-engineering/">
+							Social Engineering						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/android-2/">
+							Android						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/mobile-security/">
+							Mobile Security						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/windows/">
+							Windows						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/kids-online/">
+							Kids Online						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/mac/">
+							Mac						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/banking/">
+							Banking						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/social-media-2/">
+							Social Media						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/linux/">
+							Linux						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/interview/">
+							Interview						</a>
+									<a class="category-tag-btn 1" href="https://www.welivesecurity.com/category/education/small-business-education/">
+							Small business						</a>
+									<a class="category-tag-btn featured" href="https://www.welivesecurity.com/category/uefi/">
+							UEFI						</a>
+					</div>
+
+<div class="heading-line col-md-12 no-padding sidebar-item our-experts">
+	<h3>
+		<span class="text">Our experts</span>
+	</h3>
+	<div class="authors-wrapper row">
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/adorais/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/01/adorais-1-150x150.jpg" alt="Alexis Dorais-Joncas">
+						</div>
+						<span class="text">Alexis Dorais-Joncas</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/acherepanov/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2015/07/Cherepanov_Anton1-150x150.jpg" alt="Anton Cherepanov">
+						</div>
+						<span class="text">Anton Cherepanov</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/goretsky/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/01/Kw_Aryeh_Goretsky-3retouch1-150x150.jpg" alt="Aryeh Goretsky">
+						</div>
+						<span class="text">Aryeh Goretsky</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/ant49honey/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/01/davidharley-copy-2-150x150.png" alt="David Harley">
+						</div>
+						<span class="text">David Harley</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/cgutierrez/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2015/04/camilo_gutierrez_wls-150x150.jpg" alt="Camilo Gutiérrez Amaya">
+						</div>
+						<span class="text">Camilo Gutiérrez Amaya</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/lysa/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/10/Lysa-Meyers-222x179-150x150.jpg" alt="Lysa Myers">
+						</div>
+						<span class="text">Lysa Myers</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/marc-etienne/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/06/Marc-Etienne-M.Leveille-150x150.png" alt="Marc-Etienne M.Léveillé">
+						</div>
+						<span class="text">Marc-Etienne M.Léveillé</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/lipovsky/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2013/01/robert_lipovsky-150x150.jpeg" alt="Robert Lipovsky">
+						</div>
+						<span class="text">Robert Lipovsky</span>
+					</a>
+				</div>
+						<div class="col-md-4 col-sm-3 col-xs-3 author">
+					<a href="https://www.welivesecurity.com/author/scobb/">
+						<div class="img-wrapper">
+							<img src="https://www.welivesecurity.com/wp-content/uploads/2016/05/scobb-tedx-222x179-150x150.jpg" alt="Stephen Cobb">
+						</div>
+						<span class="text">Stephen Cobb</span>
+					</a>
+				</div>
+			</div>
+		<div class="wrapper">
+		<a class="my-btn btn-light" href="https://www.welivesecurity.com/our-experts/">
+			All experts		</a>
+	</div>
+</div>
+<div class="heading-line col-md-12 no-padding sidebar-item">
+	<div class="nwg-promo clearfix">
+        <div class="text">
+            <p>
+               Embed WeLiveSecurity news to your site. Set styling and topics so they match your preferences.            </p>
+            <img src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/nwg-sidebar-screenshot.jpg" alt="News Widget Generator">
+        </div>
+        <div class="button-wrapper">
+	        <a href="https://www.welivesecurity.com/news-widget-generator/" class="my-btn">
+    	    	Create Widget	        </a>
+        </div>
+    </div>
+</div>
+	</div>
+</aside>	</div>
+</div>
+	</div> 	<footer id="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<a href="https://www.welivesecurity.com/" class="logo">
+						<img class="hidden-sm hidden-xs" src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-footer.svg" alt="Welivesecurity.com by ESET">
+						<img class="hidden-lg hidden-md" src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/img/eset-wls-dark-header.svg" alt="Welivesecurity.com by ESET">
+					</a>
+				</div>
+				<nav id="footer" class="clearfix">
+											<div class="mobile-block">
+																<div class="col-md-2 col-md-offset-2">
+										<ul>
+																							<li>
+													<a href="/">Home</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/about-us/">About Us</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/contact-us/">Contact Us</a>
+												</li>
+																					</ul>
+									</div>
+																<div class="col-md-2 ">
+										<ul>
+																							<li>
+													<a href="https://www.welivesecurity.com/sitemap/">Sitemap</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/our-experts/">Our Experts</a>
+												</li>
+																							<li>
+													<a href="https://eset.com">ESET</a>
+												</li>
+																					</ul>
+									</div>
+													</div>
+											<div class="mobile-block">
+																<div class="col-md-2 ">
+										<ul>
+																							<li>
+													<a href="https://www.welivesecurity.com/research/">Research</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/category/how-to/">How To</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/categories/">Categories</a>
+												</li>
+																					</ul>
+									</div>
+																<div class="col-md-2 ">
+										<ul>
+																							<li>
+													<a href="https://www.welivesecurity.com/rss-configurator/">RSS Configurator</a>
+												</li>
+																							<li>
+													<a href="https://www.welivesecurity.com/news-widget-generator/">News Widget</a>
+												</li>
+																							<li>
+													<a href=""></a>
+												</li>
+																					</ul>
+									</div>
+													</div>
+									</nav>
+			</div>
+			<div class="row">
+				<div class="col-md-12 legal clearfix">
+					<div class="wrap clearfix">
+													<span>
+								<a href="https://www.welivesecurity.com/privacy/">
+									Privacy policy								</a>
+							</span>
+													<span>
+								<a href="https://www.welivesecurity.com/legal-information/">
+									Legal Information								</a>
+							</span>
+											</div>
+					<span class="copyright pull-right">Copyright &copy; ESET, All Rights Reserved</span>
+				</div>
+							</div>
+		</div>
+	</footer>
+	
+	<button id="back-to-top" class="animated-scroll" data-target="absoluteTop">
+		<span class="icomoon icon-icon_arrow"></span>
+		<span class="text">Back to top</span>
+	</button>
+
+	
+	<script>
+		var baseUrl = "https://www.welivesecurity.com/";
+	</script>
+	
+			<script>
+			window.addEventListener("load",function(){if(-1==window.document.cookie.indexOf("session=1")){var e,o,t="UA-37839312-1",a=window.location.href;window.ga&&ga.create&&window.google_tag_manager?(console.log("GA and GTM are loaded."),e="https://www.google-analytics.com/collect?v=1&cid="+ga.getAll()[0].get("clientId")+"&tid="+t+"&dl="+a+"&t=event&ec=Tracking%20check&ea=GA%20loaded,%20GTM%20loaded&ni=1&aip=1&z="+Math.floor(1e6*Math.random(0,1)).toString(),(o=document.createElement("img")).setAttribute("style","display:none;"),o.src=e,document.body.appendChild(o)):window.ga&&ga.create&&!window.google_tag_manager?(console.log("GA is loaded and GTM is blocked."),e="https://www.google-analytics.com/collect?v=1&cid="+ga.getAll()[0].get("clientId")+"&tid="+t+"&dl="+a+"&t=event&ec=Tracking%20check&ea=GA%20loaded,%20GTM%20blocked&ni=1&aip=1&z="+Math.floor(1e6*Math.random(0,1)).toString(),(o=document.createElement("img")).setAttribute("style","display:none;"),o.src=e,document.body.appendChild(o)):window.ga&&ga.create||!window.google_tag_manager?window.ga&&ga.create||window.google_tag_manager||(console.log("GA is blocked and GTM is blocked."),e="https://www.google-analytics.com/collect?v=1&cid="+1e6*Math.random(1e6,9999999)+"&tid="+t+"&dl="+a+"&t=event&ec=Tracking%20check&ea=GA%20blocked,%20GTM%20blocked&ni=&aip=1&z="+Math.floor(1e6*Math.random(0,1)).toString(),(o=document.createElement("img")).setAttribute("style","display:none;"),o.src=e,document.body.appendChild(o)):(console.log("GA is blocked and GTM is loaded."),e="https://www.google-analytics.com/collect?v=1&cid="+1e6*Math.random(1e6,9999999)+"&tid="+t+"&dl="+a+"&t=event&ec=Tracking%20check&ea=GA%20blocked,%20GTM%20loaded&ni=1&aip=1&z="+Math.floor(1e6*Math.random(0,1)).toString(),(o=document.createElement("img")).setAttribute("style","display:none;"),o.src=e,document.body.appendChild(o));var d=new Date;d.setTime(d.getTime()+18e5);var n="expires="+d.toUTCString();document.cookie="session=1; "+n+"; path=/"}},!1);
+		</script>
+	
+	<script src="https://www.welivesecurity.com/wp-content/themes/eset-wls-2018/assets/build/js/main-0ba0c3843d.js"></script>
+
+    
+		
+    <script>
+    	Main.init();
+    </script>
+
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"welivesecurity"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.welivesecurity.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16'></script>
+  </body>
+</html>
