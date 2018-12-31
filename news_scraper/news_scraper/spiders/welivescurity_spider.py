@@ -12,7 +12,7 @@ class WeLiveSecurity_spider(scrapy.Spider):
 
     # Get webpage
     # Parse out article data
-    # Store and dedupe
+    # Store and dedupe (not finished yet)
     def parse(self, response):
         articles = response.css('.news-feed-item')
         # for a in articles:
