@@ -1,4 +1,5 @@
 import scrapy
+import json
 
 class WeLiveSecurity_spider(scrapy.Spider):
     name = "WeLiveSecurity"
@@ -46,6 +47,8 @@ class WeLiveSecurity_spider(scrapy.Spider):
             # print(elt)
 
 
+        with open('welivesecurity.json', 'w') as f:
+            f.write(json.dumps(articles_parsed))
         # self.log(articles)
         # self.log(response.body)
         # with open('welivesecurity.txt', 'wb') as f:

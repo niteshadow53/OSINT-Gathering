@@ -19,13 +19,34 @@ class CiscoTalos_spider(scrapy.Spider):
         self.log("did I even get here?")
         articles = response.css('rss item')
         # print(articles)
+
+        article_title = ""
+        date_published = ""
+        short_description = ""
+        article_link = ""
+        author = ""
+
+        articles_parsed = []
         for a in articles:
-            title = a.css("title::text").extract_first()
-            print("Title: " + title)
-            link = a.css("link::text").extract_first()
-            print("Link: " + link)
+            article_title = a.css("title::text").extract_first()
+            print("Title: " + article_title)
+            article_link = a.css("link::text").extract_first()
+            print("Link: " + article_link)
             author = a.css("author::text").extract_first()
             print("Author: " + author)
-            date = a.css("pubDate::text").extract_first()
-            print("Date: " + date)
+            date_published = a.css("pubDate::text").extract_first()
+            print("Date: " + date_published)
             print("===========================")
+
+            a_dict = {
+                "article_title": article_title.strip(),
+                "date_published": date_published,
+                "short_description": short_description,
+                "article_link": article_link,
+                "author": author,
+            }
+
+            articles_parsed.append(a_dict)
+
+        with open('ciscotalos.json', 'w') as f:
+            f.write(json.dumps(articles_parsed))
