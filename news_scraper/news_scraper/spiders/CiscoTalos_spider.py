@@ -1,4 +1,6 @@
 import scrapy
+import json
+import datetime
 
 class CiscoTalos_spider(scrapy.Spider):
     name="CiscoTalos"
@@ -38,6 +40,8 @@ class CiscoTalos_spider(scrapy.Spider):
             print("Date: " + date_published)
             print("===========================")
 
+            date_published = datetime.datetime.strptime(date_published, "%a, %d %b %Y %H:%M:%S PST") + datetime.timedelta(hours=3)
+            date_published = date_published.isoformat()
             a_dict = {
                 "article_title": article_title.strip(),
                 "date_published": date_published,
