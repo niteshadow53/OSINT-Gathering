@@ -15,4 +15,4 @@ class TrendMicro_spider(scrapy.Spider):
     # Parse out article data
     # Store and dedupe (not finished yet)
     def parse(self, response):
-        articles = 
+        articles = ""

@@ -1,5 +1,6 @@
 import scrapy
 import json
+import datetime
 
 class WeLiveSecurity_spider(scrapy.Spider):
     name = "WeLiveSecurity"
@@ -33,6 +34,7 @@ class WeLiveSecurity_spider(scrapy.Spider):
             article_link = a.css(".text-wrapper h2 a::attr(href)").extract_first()
             author = a.css(".text-wrapper span a::text").extract_first()
 
+            date_published = datetime.datetime.strptime(date_published, "%Y-%m-%d %H:%M:%S").isoformat()
             a_dict = {
                 "article_title": article_title.strip(),
                 "date_published": date_published,
