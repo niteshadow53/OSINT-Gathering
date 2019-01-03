@@ -1,16 +1,21 @@
-from scrapy import cmdline
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
 def main():
     spiders = [
-        "CiscoTalos",
         "TrendMicro",
+        "CiscoTalos",
         "SecurityIntelligence",
         "WeLiveSecurity"
     ]
 
+    process = CrawlerProcess(get_project_settings())
+
     for spider in spiders:
-        cmd = "scrapy crawl " + spider
-        cmdline.execute(cmd.split())
+        # process = CrawlerProcess(get_project_settings())
+        process.crawl(spider)
+    process.start()
+
 
 if __name__ == "__main__":
     main()

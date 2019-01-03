@@ -35,7 +35,10 @@ class SecurityIntelligence_spider(scrapy.Spider):
             article_link = a.css("div.content a::attr(href)").extract_first()
             author = ""
 
-            date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
+            try:
+                date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
+            except:
+                date_published = datetime.datetime.today().isoformat()
             a_dict = {
                 "article_title": article_title.strip(),
                 "date_published": date_published,
@@ -59,7 +62,10 @@ class SecurityIntelligence_spider(scrapy.Spider):
         article_link = a.css("div.content a::attr(href)").extract_first()
         author = ""
 
-        date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
+        try:
+            date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
+        except:
+            date_published = datetime.datetime.today().isoformat()
         a_dict = {
             "article_title": article_title.strip(),
             "date_published": date_published,
