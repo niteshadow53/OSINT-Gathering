@@ -41,6 +41,7 @@ class WeLiveSecurity_spider(scrapy.Spider):
                 "short_description": short_description,
                 "article_link": article_link,
                 "author": author,
+                "source": "Trend Micro"
             }
 
             print(a_dict)

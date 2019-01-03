@@ -48,6 +48,7 @@ class CiscoTalos_spider(scrapy.Spider):
                 "short_description": short_description,
                 "article_link": article_link,
                 "author": author,
+                "source": "Cisco Talos Intelligence Blog"
             }
 
             articles_parsed.append(a_dict)

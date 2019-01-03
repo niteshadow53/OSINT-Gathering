@@ -41,6 +41,7 @@ class WeLiveSecurity_spider(scrapy.Spider):
                 "short_description": short_description,
                 "article_link": article_link,
                 "author": author,
+                "source": "ESET"
             }
 
             print(a_dict)

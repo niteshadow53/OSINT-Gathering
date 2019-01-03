@@ -3,7 +3,7 @@ import json
 import datetime
 import pprint
 
-class WeLiveSecurity_spider(scrapy.Spider):
+class SecurityIntelligence_spider(scrapy.Spider):
     name = "SecurityIntelligence"
 
     def start_requests(self):
@@ -42,6 +42,7 @@ class WeLiveSecurity_spider(scrapy.Spider):
                 "short_description": short_description,
                 "article_link": article_link,
                 "author": author,
+                "source": "IBM Security Intelligence"
             }
 
             # print(a_dict)
