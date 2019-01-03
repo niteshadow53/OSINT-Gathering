@@ -72,6 +72,7 @@ class SecurityIntelligence_spider(scrapy.Spider):
             "short_description": short_description,
             "article_link": article_link,
             "author": author,
+            "source": "IBM Security Intelligence"
         }
         articles_parsed.append(a_dict)
         # End top story parsing ============================================

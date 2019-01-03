@@ -18,12 +18,13 @@ def main():
         js_objs.append(load_json(filename))
 
     articles = []
-    time_delta = datetime.timedelta(days=13)
+    u_input = input("How many days back? ")
+    time_delta = datetime.timedelta(days=int(u_input))
     for obj in js_objs:
-        articles = articles + get_articles_in_timeframe(obj, time_delta)
+        articles = get_articles_in_timeframe(obj, time_delta)
+        print_articles2(articles)
 
     # pprint.pprint(articles)
-    print_articles(articles)
 
 
 # list all json files in the current directory
@@ -61,6 +62,12 @@ def print_articles(articles):
         print("pub_date: " + a["date_published"])
         print("link: " + a["article_link"])
         print("=================================")
+
+def print_articles2(articles):
+    for a in articles:
+        print(a["date_published"] + " " + a["source"] + " " + a["article_title"])
+        print(a["article_link"])
+        print("===================")
 
 if __name__ == "__main__":
     main()
