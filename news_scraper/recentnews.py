@@ -54,6 +54,8 @@ def get_articles_in_timeframe(json_obj, time_delta):
     return articles
 
 def print_articles(articles):
+    if len(articles) > 0:
+        print("SOURCE: " + articles[0]["source"])
     for a in articles:
         print("title: " + a["article_title"])
         print("pub_date: " + a["date_published"])
