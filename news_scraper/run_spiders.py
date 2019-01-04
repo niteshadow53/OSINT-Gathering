@@ -6,7 +6,8 @@ def main():
         "TrendMicro",
         "CiscoTalos",
         "SecurityIntelligence",
-        "WeLiveSecurity"
+        "WeLiveSecurity",
+        "WallStreetJournal",
     ]
 
     process = CrawlerProcess(get_project_settings())

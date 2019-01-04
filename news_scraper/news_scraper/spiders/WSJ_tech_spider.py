@@ -49,5 +49,5 @@ class WallStreetJournal_spider(scrapy.Spider):
             print("================")
             # print(elt)
 
-        with open('trendmicro.json', 'w') as f:
+        with open('wallstreetjournal.json', 'w') as f:
             f.write(json.dumps(articles_parsed))
