@@ -8,6 +8,7 @@ def main():
         "SecurityIntelligence",
         "WeLiveSecurity",
         "WallStreetJournal",
+        "Cyware",
     ]
 
     process = CrawlerProcess(get_project_settings())
