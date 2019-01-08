@@ -47,7 +47,7 @@ class SecurityIntelligence_spider(scrapy.Spider):
             if date_published[1:].strip() == "days ago":
                 time_delta = datetime.timedelta(days=int(date_published[0]))
                 date_published = (datetime.datetime.today() - time_delta).isoformat()
-            if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+            if int(date_published[0:2]) > 10 and date_published[2:].strip() == "days ago":
                 time_delta = datetime.timedelta(days=int(date_published[0:2]))
                 date_published = (datetime.datetime.today() - time_delta).isoformat()
             if date_published[1:].strip() == "hours ago":
@@ -86,7 +86,7 @@ class SecurityIntelligence_spider(scrapy.Spider):
         if date_published[1:].strip() == "days ago":
             time_delta = datetime.timedelta(days=int(date_published[0]))
             date_published = (datetime.datetime.today() - time_delta).isoformat()
-        if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+        if int(date_published[0:2]) > 10 and date_published[2:].strip() == "days ago":
             time_delta = datetime.timedelta(days=int(date_published[0:2]))
             date_published = (datetime.datetime.today() - time_delta).isoformat()
         if date_published[1:].strip() == "hours ago":

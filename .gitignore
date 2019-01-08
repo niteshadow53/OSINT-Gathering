@@ -1,2 +1,4 @@
 # Virtual environment
 venv/
+news_scraper/*.json
+news_scraper/html/articles_jinja_output.html
