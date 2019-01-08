@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>All Articles</title>
+</head>
+<body>
+  <h2>All Articles:</h2>
+  {% for item in articles %}
+    <div class="article">
+      <h3><a href="{{ item.article_link }}">{{ item.source }}: {{ item.article_title }}</a></h3>
+      <p class="date">{{ item.date_published }}</p>
+    </div>
+  {% endfor %}
+</body>
+</html>

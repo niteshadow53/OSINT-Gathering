@@ -35,10 +35,27 @@ class SecurityIntelligence_spider(scrapy.Spider):
             article_link = a.css("div.content a::attr(href)").extract_first()
             author = ""
 
+            # try:
+            #     date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
+            # except:
+            #     date_published = datetime.datetime.today().isoformat()
             try:
                 date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
             except:
-                date_published = datetime.datetime.today().isoformat()
+                pass
+            print(date_published[1:])
+            if date_published[1:].strip() == "days ago":
+                time_delta = datetime.timedelta(days=int(date_published[0]))
+                date_published = (datetime.datetime.today() - time_delta).isoformat()
+            if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+                time_delta = datetime.timedelta(days=int(date_published[0:2]))
+                date_published = (datetime.datetime.today() - time_delta).isoformat()
+            if date_published[1:].strip() == "hours ago":
+                time_delta = datetime.timedelta(hours=int(date_published[0]))
+                date_published = (datetime.datetime.today() - time_delta).isoformat()
+            if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+                time_delta = datetime.timedelta(hours=int(date_published[0:2]))
+                date_published = (datetime.datetime.today() - time_delta).isoformat()
             a_dict = {
                 "article_title": article_title.strip(),
                 "date_published": date_published,
@@ -65,7 +82,21 @@ class SecurityIntelligence_spider(scrapy.Spider):
         try:
             date_published = datetime.datetime.strptime(date_published, "%b %d, %Y").isoformat()
         except:
-            date_published = datetime.datetime.today().isoformat()
+            pass
+        if date_published[1:].strip() == "days ago":
+            time_delta = datetime.timedelta(days=int(date_published[0]))
+            date_published = (datetime.datetime.today() - time_delta).isoformat()
+        if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+            time_delta = datetime.timedelta(days=int(date_published[0:2]))
+            date_published = (datetime.datetime.today() - time_delta).isoformat()
+        if date_published[1:].strip() == "hours ago":
+            time_delta = datetime.timedelta(hours=int(date_published[0]))
+            date_published = (datetime.datetime.today() - time_delta).isoformat()
+        if int(date_published[0:2]) > 10 and date_published[2:].strip() == "hours ago":
+            time_delta = datetime.timedelta(hours=int(date_published[0:2]))
+            date_published = (datetime.datetime.today() - time_delta).isoformat()
+
+        # date_published = datetime.datetime.today().isoformat()
         a_dict = {
             "article_title": article_title.strip(),
             "date_published": date_published,
