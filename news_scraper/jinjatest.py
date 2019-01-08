@@ -6,7 +6,7 @@ import dateutil.parser
 import pprint
 
 def main():
-    output_filepath = "articles_jinja_output.html"
+    output_filepath = "html/articles_jinja_output.html"
     env = Environment(
         loader = FileSystemLoader('templates/'),
         autoescape = select_autoescape(['html', 'xml'])
