@@ -15,7 +15,7 @@ def main():
     template = env.get_template('article_view.html')
 
     js_objs = collect_articles()
-    articles=get_articles_in_timeframe(js_objs, 4)
+    articles=get_articles_in_timeframe(js_objs, 2)
 
     html_output_str = template.render(articles=articles)
     with open(output_filepath, "w") as file_:
